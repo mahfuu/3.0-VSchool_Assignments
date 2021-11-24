@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: x-small;
+}
+
+img {
+    max-width: 40vw;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    max-width: 40vw;
+}
+
+.card-pic {
+    padding: 1vw
+}
+
+.card-text {
+    opacity: 0.7;
+    position: absolute;
+    color: white;
+    padding: 1vw;
+    align-self: flex-end;
+}
+
+.winter {
+    background-color: blueviolet;
+}
+
+.spring {
+    background-color: #44d7a8;
+}
+
+.summer {
+    background-color: firebrick;
+}
+
+.fall {
+    background-color: goldenrod;
+}

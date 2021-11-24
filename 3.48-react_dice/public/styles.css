@@ -1,0 +1,15 @@
+body {
+    background-color: #35654D;
+}
+
+.dicebox {
+    display: flex;
+}
+
+.die {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+}
