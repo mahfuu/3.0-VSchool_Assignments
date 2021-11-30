@@ -10,7 +10,7 @@ class App extends React.Component{
   }
 
   componentDidMount() {
-    axios.get("https://www.colr.org/json/color/random?timestamp=${new Date().getTime()}")
+    axios.get(`https://www.colr.org/json/color/random?timestamp=${new Date().getTime()}`)
       .then(res => {
         this.setState({
           colorList: res.data.colors
